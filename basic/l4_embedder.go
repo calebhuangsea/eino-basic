@@ -10,8 +10,8 @@ import (
 	"github.com/joho/godotenv"
 )
 
-// Retrieval-Augmented Generation 将input strings使用向量模型转换成向量
-func Rag() {
+// Embedder 将input strings使用向量模型转换成向量
+func Embedder() {
 	// 加载环境变量
 	err := godotenv.Load(".env")
 	if err != nil {
